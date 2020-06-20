@@ -1,0 +1,45 @@
+<!doctype html>
+
+<!--
+  spa.html
+  spa browser document
+-->
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <!-- ie9+ rendering support for latest standards -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>SPA | My example</title>
+    <!-- our stylesheets -->
+    <link rel="stylesheet" href="src/css/fonts.css">
+    <link rel="stylesheet" href="src/css/spa.css">
+    <link rel="stylesheet" href="src/css/spa.meal.css">
+    <link rel="stylesheet" href="src/css/spa.basket.css">
+    <link rel="stylesheet" href="src/css/spa.shell.css">
+
+    <!-- third-party javascript -->
+    <script src="src/js/jquery/jquery-3.2.1.min.js"></script>
+    <script src="src/js/jquery/taffydb-2.6.2.js"></script>
+
+    <!-- our javascript -->
+    <script src="src/js/spa.js"></script>
+    <script src="src/js/spa.data.js"></script>
+    <script src="src/js/spa.fake.js"></script>
+    <script src="src/js/spa.model.js"></script>
+    <script src="src/js/spa.util.js"></script>
+    <script src="src/js/spa.shell.js"></script>
+    <script src="src/js/spa.meal.js"></script>
+    <script src="src/js/spa.basket.js"></script>
+    <script src="src/js/spa.account.js"></script>
+    <script>
+      // Инициализируем приложение, как только модель DOM будет готова к работе.
+      $(function () {
+        spa.initModule( $('#spa') );
+      });
+    </script>
+  </head>
+  <body>
+    <div id="spa"></div>
+  </body>
+</html>

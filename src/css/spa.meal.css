@@ -1,0 +1,118 @@
+/*
+ * spa.meal.css
+ * Meal features styles
+*/
+
+.spa-meal {
+  background-color : #323234;
+  width            : 100%;
+  clear            : both;
+  float            : left;
+  border-bottom    : 1px solid #47484A;
+}
+
+.spa-meal:last-child {
+  height: 250px;
+}
+
+.spa-meal-left-side {
+  float   : left;
+  width   : 66%;
+  padding : 15px 0px 15px 15px;
+}
+
+.spa-meal-left-side-image {
+  float : left;
+}
+
+.spa-meal-left-side-image img {
+  width : 130px;
+}
+
+.spa-meal-left-side-name {
+  float      : left;
+  text-align : left;
+}
+
+.spa-meal-left-side-name div {
+  padding-top : 10px;
+}
+
+.spa-meal-left-side-name div h3 {
+  color        : #ECF0F1;
+  font-size    : 22px;
+  padding-left : 10px;
+}
+
+.spa-meal-left-side-name div h4 {
+  color        : #7F8D8D;
+  padding-left : 12px;
+  font-size    : 16px;
+}
+
+.spa-meal-right-side {
+  float        : right;
+  width        : 30%;
+  margin-right : 15px;
+}
+
+.spa-meal-right-side-counter {
+  padding-top : 26px;
+}
+
+.spa-meal-right-side-counter h2 {
+  color          : #E53E58;
+  font-size      : 33px;
+  text-align     : center;
+  padding-bottom : 10px;
+}
+
+button.button-order {
+  text-decoration  : none;
+  color            : #ECF0F1;
+  border-radius    : 2.5px;
+  background-color : #E63F51;
+  text-align       : center;
+  border           : 0;
+  cursor           : pointer;
+  font-size        : 16px;
+  width            : 100%;
+  height           : 50px;
+}
+
+.spa-meal-right-side-counter-panel {
+  width            : 100%;
+  background-color : #E63F51;
+  border-radius    : 2.5px; 
+}
+
+button.decrease-value, 
+button.increase-value {
+  background-color : #323234;
+  border           : 1px solid #E63F51;
+  color            : #E63F51;
+  border-radius    : 2.5px;
+  display          : inline-block;
+  width            : 32%;
+  height           : 50px;
+  font-size        : 33px;
+  cursor           : pointer;
+}
+
+button.increase-value{
+  float : right;
+}
+
+.counter-value {
+  display        : inline-block;
+  width          : 36%;
+  text-align     : center;
+  color          : #ECF0F1;
+  font-size      : 20px;
+  vertical-align : text-bottom;
+  padding-bottom : 2px;
+}
+
+.lastContainer {
+
+}

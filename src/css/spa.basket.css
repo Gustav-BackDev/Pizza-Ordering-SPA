@@ -1,0 +1,42 @@
+.spa-shell-main-basket {
+
+}
+
+.spa-table {
+  position : fixed;
+  bottom   : 85px;
+  clear    : both;
+
+  width     : 100%;
+  max-width : 800px;
+
+  padding-top    : 35px;
+  padding-bottom : 35px;
+
+  background-color : #323234;
+  text-align : center;
+}
+
+.spa-table-total {
+  
+}
+
+.spa-table-total-counter {
+  font-size : 40px;
+  color : white;
+}
+
+.spa-table-total-counter-amount {
+  color : #e63f51;
+}
+
+.spa-table-total-text {
+  display    : inline-block;
+  padding    : 15px 55px;
+  margin-top : 35px;
+  border-radius : 5px;
+
+  background-color : #e63f51;
+  font-weight : bold;
+  color       : white;
+}

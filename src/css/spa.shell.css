@@ -1,0 +1,103 @@
+/*
+ * spa.shell.css
+ * Shell styles
+*/
+
+.spa-shell-header {
+  position         : fixed;
+  top              : 0;
+  width            : 100%;
+  max-width        : 800px;
+  background-color : #45494C;
+}
+
+.spa-shell-header h1 {
+  padding    : 20px 0px 20px 0px;
+  color      : #ECF0F1;
+  text-align : center;
+  font-size  : 28px;
+}
+
+.spa-shell-main {
+  padding-top      : 80px;
+  width            : 100%;
+  background-color : #323234;
+}
+
+.spa-shell-footer {
+  background-color : #ECF0F1;
+  position         : fixed;
+  bottom           : 0;
+  width            : 100%;
+  max-width        : 800px;
+  clear            : both;
+}
+
+.spa-shell-footer ul {
+  text-align     : center;
+  min-width      : 480px;
+  max-width      : 800px;
+  padding-bottom : 10px;
+}
+
+.spa-shell-footer ul li {
+  display : inline-block;
+  width   : 18.5%;
+}
+
+.spa-shell-footer ul a       { color: #464A4D; }
+.spa-shell-footer ul a:hover { color: #ff1a35; }
+.spa-shell-footer ul a#active { 
+  color: #ff1a35; 
+}
+
+/* spa-shell-footer-nav includes a list of div's:
+    - discounts
+    - restaurant
+    - menu
+    - basket
+    - сabinet
+  */
+
+.discounts,  .discounts:hover, 
+.restaurant, .restaurant:hover, 
+.menu,       .menu:hover,  
+.basket,     .basket:hover, 
+.cabinet,    .cabinet:hover {
+  background-repeat   : no-repeat;
+  background-position : center;
+  background-size     : 2.3em;
+  display             : block;
+  width               : 100%;
+  height              : 60px;
+}
+
+.menu, 
+.menu:hover {
+  background-size : 3.2em;
+}
+
+.discounts              { background-image : url(../images/icons/discounts.png);      }
+.discounts:hover        { background-image : url(../images/icons/discountsAfter.png); }
+ul a#active .discounts  { background-image : url(../images/icons/discountsAfter.png); }
+
+.restaurant             { background-image : url(../images/icons/restaurant.png);      }
+.restaurant:hover       { background-image : url(../images/icons/restaurantAfter.png); }
+ul a#active .restaurant { background-image : url(../images/icons/restaurantAfter.png); }
+
+.menu             { background-image : url(../images/icons/menu.png);      }
+.menu:hover       { background-image : url(../images/icons/menuAfter.png); }
+ul a#active .menu { background-image : url(../images/icons/menuAfter.png); }
+
+.basket             { background-image : url(../images/icons/basket.png);      }
+.basket:hover       { background-image : url(../images/icons/basketAfter.png); }
+ul a#active .basket { background-image : url(../images/icons/basketAfter.png); }
+
+.cabinet             { background-image : url(../images/icons/cabinet.png);      }
+.cabinet:hover       { background-image : url(../images/icons/cabinetAfter.png); }
+ul a#active .cabinet { background-image : url(../images/icons/cabinetAfter.png); }
+
+.spa-shell-footer ul h5 {
+  font-size   : 16px;
+  padding-top : 57.5px;
+}
